@@ -1,0 +1,18 @@
+#container{
+    width: 500px;
+    margin: 0 auto;
+    background-color: brown;
+}
+div{
+    background-color: aquamarine;
+    width: 300px;
+    margin: 0px auto;
+}
+div.first{
+    background-color: magenta;
+    height: 24px;
+    transition: height 1s ease-out;
+}
+div.first:hover{
+    height: 100px;
+}
