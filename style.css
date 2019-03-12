@@ -1,18 +1,23 @@
 #container{
     width: 500px;
-    margin: 0 auto;
-    background-color: brown;
+    background-color: black;
+    display:flex;
+    flex-direction: row;
 }
-div{
+#container > div{
     background-color: aquamarine;
-    width: 300px;
-    margin: 0px auto;
+    width: 60%;
+    height: 80%;
+    flex-grow: 1;
+    transition: all .4s linear;
 }
-div.first{
+#container > div:nth-child(2){
     background-color: magenta;
-    height: 24px;
-    transition: height 1s ease-out;
+    flex-grow: 2;
+
 }
-div.first:hover{
-    height: 100px;
+#container > div:hover{
+    background-color: blueviolet
 }
+
+div
